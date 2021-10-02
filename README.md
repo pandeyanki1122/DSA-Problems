@@ -7,4 +7,4 @@ It will contain DSA Based Questions on regular Basis.
 
 01-10-2021 -> Palindrome Linked List and Find Middle of the Linked list.
 
-02-10-2021 -> Rotate List and 
+02-10-2021 -> Rotate List and Reverse Linked List II.

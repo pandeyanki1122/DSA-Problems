@@ -5,4 +5,4 @@ It will contain DSA Based Questions on regular Basis.
 
 30-09-2021 -> Swap nodes in pairs and merge two sorted lists.
 
-01-10-2021 -> Palindrome Linked List and 
+01-10-2021 -> Palindrome Linked List and Find Middle of the Linked list.

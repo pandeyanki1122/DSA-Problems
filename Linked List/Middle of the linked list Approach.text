@@ -1,0 +1,13 @@
+NAIVE APPROACH :-
+First count the total number of nodes i.e. n in given Linked List.
+if n == odd , return ((n/2) + 1).
+if n == even , then there will be two middle nodes , but we have to return the second one , so return ((n/2) + 1).
+Time Complexity = O(N) (to traverse to compute total no. of nodes) + O(N/2) (traverse to reach middle of nodes).
+Space Complexity = O(1).
+
+OPTIMAL APPROACH :- 
+Using Tortoise Method : It involves two nodes(pointers).
+Slow tortoise will move by a distance one and fast tortoise will move by a distance two.
+When Fast tortoise will reach end i.e. compute traversal , the slow tortoise will reach the middle of the linked list.
+Time Complexity = O(n/2).
+Space Complexity = O(1).

@@ -1,0 +1,17 @@
+Naive Approach :-
+Put the last node , keep it in front , and again put the last node , and put it in front ,keep doint it for k number of times.
+Time Complexity : O(K * N) , because everytime you're going to find last node , it will take 'N' time and then putting the last node in front for k-times , it will takes 'K'
+                  time. so , O(K * N).
+Space Complexity : O(1)
+
+OPTIMAL APPROACH :-
+As of now , we have two cases : 
+K < Length       ,        K > Length.
+if K >= Length then k = k % length will be the number of auto rotation we will do.
+STEP 1) Compute length of Linked List .
+Step 2) While traversing when pointer reaches the last node , now make it simply point to the head of the linked list. So , this become circular linked list as of now.
+Step 3) Now, get (length - K )th node and point it to NULL;
+In this way , the list will be rotated k times.
+
+Time Complexity = O(N) (to count total no. of nodes ) + O( N - ( N % K )) (to traverse k number of nodes).
+Space Complexity = O(1).

@@ -1,0 +1,10 @@
+USING DUTCH NATIONAL FLAG ALGORITHM 
+Place three pointers i.e. lo = 0 ( at the 0th index) , mid = 0 ( also at the 0th index) and high = arr.size( )-1,(i.e at last index), now, start traversing given array . 
+We will be moving mid pointer until mid pointer crosses the high pointer.
+while moving we will be have three checks.
+1) When mid pointing to '0' -> swap( arr[lo ++] , arr[mid ++] );
+2) When mid pointing to '1' -> mid++;
+3) When mid pointing to '2' -> swap( arr[mid] , arr[high--] );
+It will be a in-place approach.
+Time Complexity = O(n)
+Space Complexity = O(1)

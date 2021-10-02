@@ -1,0 +1,22 @@
+First find the middle of the given linked list.
+Take slow pointer and fast pointer and put both slow and fast pointer on the first node of given linked list.
+Now keep moving both pointers as:
+slow = slow -> next and fast = fast -> next -> next , i.e. slow pointer by one node and fast pointer by two node.
+The moment you reach the fast pointer by second last or last node STOP.
+At this moment , slow pointer will stand is standing on the middle of the linked list.
+Now, reverse the right half of linked list (after the middle node ) entirely.
+Now,move slow pointer by one more step and take the dummy node and placed it at head of the linked list.
+Start traversing both dummy and slow pointer simultaneously .
+As slow reaches NULL , That means the right half is equivalent to left half.
+Then the linked list is called PALINDROME.
+If not , then linked list is not Palindrome , as there existan element which must not be matched.
+This approach will change the original linked list , so if interviewer ask the original linked list back, then again reverse the right half to get the original linked list.
+
+Time complexity = O(n/2) + O(n/2) + O(n/2) + O(n/2) + O(n/2).
+i) first O(n/2) = to find middle of linked list.
+ii) second O(n/2) = to reverse right half of the linked list.
+iii) third O(n/2) = to compare left half and right half.
+iv) fourth O(n/2) = to again find middle of the linked list.
+v) fifth O(n/2) = to reverse the right half to get the original linked list.
+
+Space Complexity = O(1).

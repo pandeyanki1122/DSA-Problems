@@ -1,0 +1,12 @@
+BRUTE - FORCE Approach :-
+In Brute force approach , we will comparing value of each given linked list one after another and keep on adding the smallest value to the new linked list.
+In Brute - force approach , Time Complexity will be : O(N1) + O(N2) , where N1 and N2 are the number of nodes in given list1 and list2 respectively.
+And Space Complexity will be O(N) , as we will create a new linked list and keep inserting the node value till we reaches NULL of both linked list.
+In interview , Interviewer will surely ask to optimise this approach , so we will talk about the optimal solution , i.e. In-Place Solution.
+OPTIMAL APPROACH :-
+Take l1 and l2 for list1 and list2 and then whichever is smaller point l1 to it.
+Now create a temp pointer and assign NULL to it. The main moto of creating temp pointer so that we can traverse on the resulting list while creating it.
+After every iteration we will swap the value of value of l1 and l2 , so that l1 must contain the smaller value.
+Now , 
+Time Complexity : O(N1 + N2) , where N1 and N2 is length of list1 and list2 respectively.
+Space Complexity : O(1).

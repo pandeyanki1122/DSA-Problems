@@ -1,8 +1,7 @@
 /*
 What is palindrome concept?
-Image result for Palindrome list definition
 A Palindrome is a word, sequence or phrase that reads the same forward as it does backwards, for example words like 'dad', 'mom', 'madam' or numbers like '11', '121',
-or '99099'.
+or '99099' are palindrome.
 */
 //CODE :-
 

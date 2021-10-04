@@ -8,3 +8,5 @@ It will contain DSA Based Questions on regular Basis.
 01-10-2021 -> Palindrome Linked List and Find Middle of the Linked list.
 
 02-10-2021 -> Rotate List and Reverse Linked List II.
+
+03-10-2021 -> Find duplicate in an array of N+1 integers and 

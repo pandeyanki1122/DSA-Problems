@@ -11,4 +11,4 @@ It will contain DSA Based Questions on regular Basis.
 
 03-10-2021 -> Find duplicate in an array of N+1 integers and Two Sum
 
-04/10/2021 -> Reverse only letters and 
+12/10/2021 -> Reverse only letters and wave array
